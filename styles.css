@@ -2,3 +2,9 @@
   width: 60vw;
   margin: auto;
 }
+
+.jumbo-box {
+  background-color: rgba(191, 191, 191, 0.75);
+  padding: 10px;
+  border-radius: 5px;
+}
