@@ -37,8 +37,18 @@ hr {
   color: #191919;
 }
 
-.display-3 {
-  font-size: 2rem;
+.jumbo-box a:active {
+  color: black;
+}
+
+@media (hover: none) {
+  .jumbo-box a:hover {
+    color: #fff;
+  }
+
+  .jumbo-box a:active {
+    color: #191919;
+  }
 }
 
 @media screen and (max-width: 855px) {
