@@ -42,33 +42,24 @@ hr {
 }
 
 @media screen and (max-width: 850px) {
-  .fa-3x,
   nav .display-3 {
-    font-size: 1.6em;
+    font-size: 0em;
+  }
+
+  .fa-3x {
+    font-size: 2em;
   }
 }
 
-@media screen and (max-width: 735px) {
-  .fa-3x,
-  nav .display-3 {
-    font-size: 1.3rem;
+@media screen and (max-width: 460px) {
+  .fa-3x {
+    font-size: 1.5em;
   }
 }
 
-@media screen and (max-width: 650px) {
-  .fa-3x,
-  nav .display-3 {
-    font-size: 1rem;
-  }
-}
-
-@media screen and (max-width: 560px) {
-  nav .display-3 {
-    font-size: 0rem;
-  }
-
-  .display-2 {
-    font-size: 3rem;
+@media screen and (max-width: 410px) {
+  .fa-3x {
+    font-size: 1em;
   }
 }
 
