@@ -41,9 +41,23 @@ hr {
   font-size: 2rem;
 }
 
-@media screen and (max-width: 854px) {
+@media screen and (max-width: 850px) {
   .fa-3x,
   nav .display-3 {
-    font-size: 1.75em;
+    font-size: 1.6em;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .fa-3x,
+  nav .display-3 {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .fa-3x,
+  nav .display-3 {
+    font-size: 1rem;
   }
 }
