@@ -11,6 +11,10 @@
   color: white;
 }
 
+nav {
+  text-align: center;
+}
+
 hr {
   border-color: inherit;
 }
